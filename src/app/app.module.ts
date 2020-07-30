@@ -15,8 +15,6 @@ import { MenuComponent } from './menu/menu.component';
 import { from } from 'rxjs';
 import { DishdetailComponent } from './dishdetail/dishdetail.component';
 
-import { DishService }  from './services/dish.service'
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,9 +31,7 @@ import { DishService }  from './services/dish.service'
     MatCardModule,
     MatButtonModule
   ],
-  providers: [
-    DishService
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
